@@ -108,9 +108,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=.:$PATH
-
-# export JE_BACKEND_PATH=/Users/renaudfradin/Projet/tuto_nextjs_rooter
-# export JE_WEBFLOW_PATH=/Users/renaudfradin/Downloads/landing-page-fc4add.webflow
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"

@@ -8,10 +8,10 @@ echo -e '\e[93m[31m Config MAC '
 echo -e '\e[93m=======================================\033[0m'
 ################################################
 
-cd ~/Downloads
-
 ## install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+git clone git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 ## list install stack
 arrayStack=("iterm2" "node" "docker" "sublime-text" "--cask visual-studio-code" "--cask spotify" "--cask discord")
