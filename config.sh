@@ -14,7 +14,7 @@ git clone git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTO
 git clone git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 ## list install stack
-arrayStack=("iterm2" "node" "docker" "sublime-text" "--cask visual-studio-code" "--cask spotify" "--cask discord")
+arrayStack=("iterm2" "node" "docker" "--cask visual-studio-code" "--cask spotify" "--cask discord" "php" "composer")
 
 ## install stack
 for i in ${!arrayStack[@]}; do
